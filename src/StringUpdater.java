@@ -1,9 +1,9 @@
-public class StringUpdater {
+public final class StringUpdater {
 
     public static String turnLetters(String inputString) {
 
         if (inputString == null) {
-            return null;
+            return "";
         }
 
         if (inputString.length() <= 1) {
